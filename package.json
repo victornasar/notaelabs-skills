@@ -1,0 +1,16 @@
+{
+  "name": "notaelabs-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skills from Notae Labs (Claude, Cursor, Codex).",
+  "scripts": {
+    "install-skills": "node scripts/install.js",
+    "uninstall-skills": "node scripts/uninstall.js",
+    "postinstall": "node scripts/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victornasar/notaelabs-skills.git"
+  },
+  "license": "UNLICENSED"
+}
