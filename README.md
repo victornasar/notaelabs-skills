@@ -6,6 +6,7 @@ Agent skills from Notae Labs. Same `SKILL.md` format works across **Claude Code*
 notaelabs-skills/
   skills/
     logomark/          # one folder per skill (SKILL.md + optional reference)
+    wordmark/
   scripts/             # install / uninstall into agent skill dirs
   package.json
   README.md
@@ -14,6 +15,7 @@ notaelabs-skills/
 | Skill | Purpose |
 | --- | --- |
 | [`logomark`](./skills/logomark/) | Iterative SVG logomark pipeline (4 drafts → select/fix → final) |
+| [`wordmark`](./skills/wordmark/) | Brand-dependent SVG wordmark pipeline (posture + customize → critique → surgical refine → lock) |
 
 ## Install
 
@@ -40,7 +42,7 @@ npm run uninstall-skills
 
 ## Usage
 
-Invoke by name or natural language triggers in the skill description (e.g. “logomark for …”, “design a brand mark”). Artifacts write to the **project cwd** (`logo-drafts/`, `logo-final/`), not into this repo.
+Invoke by name or natural language triggers in the skill description (e.g. “logomark for …”, “wordmark for …”). Artifacts write to the **project cwd** (`logo-drafts/` / `wordmark-drafts/`, finals beside them), not into this repo.
 
 ## License
 
