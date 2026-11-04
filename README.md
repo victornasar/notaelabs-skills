@@ -46,4 +46,4 @@ Invoke by name or natural language triggers in the skill description (e.g. “lo
 
 ## License
 
-Private / proprietary unless otherwise noted.
+[MIT](LICENSE)
